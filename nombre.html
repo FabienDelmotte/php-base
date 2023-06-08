@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Génération d'une table de multiplication</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+      input[name="n"] {
+        width: 3em;
+      }
+      input[type="submit"] {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <a href="/">Retour à l'index</a>
+      <h1>Génération d'une table de multiplication</h1>
+      <form name="form" action="multiplication3.php" method="GET">
+        <p>
+          Saisissez un nombre entier en base 10&nbsp;
+          <input type="number" name="n" required />
+        </p>
+        <input type="submit" value="Calculer la table de multiplication !" />
+      </form>
+    </div>
+  </body>
+</html>
